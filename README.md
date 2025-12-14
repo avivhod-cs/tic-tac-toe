@@ -21,6 +21,7 @@ Project Structure:
 ├── index.html   # Application entry point and layout
 ├── style.css    # Styling, animations, RTL support
 └── script.js    # Game logic, timer handling, state management
+└── README.md
 
 
 Game Logic: (the full game logic is implemented in script.js)
