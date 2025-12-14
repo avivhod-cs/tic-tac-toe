@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>איקס-עיגול</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>איקס-עיגול</h1>
+
+        <div class="rules-box">
+            <h3>כללי המשחק:</h3>
+            <ul>
+                <li>שני שחקנים: X ו-O.</li>
+                <li>השחקן X מתחיל.</li>
+                <li>מטרת המשחק: ליצור רצף של שלושה סימנים (X או O) אופקי, אנכי או אלכסוני.</li>
+                <li>חשוב: יש לך 30 שניות לבצע מהלך. אם לא תבצע מהלך, תפסיד אוטומטית</li>
+            </ul>
+        </div>
+
+        <div class="game-info">
+            <div id="timer-box" class="info-item">
+                <span class="label">זמן שנותר למהלך:</span>
+                <span id="time-left">30</span>
+                <span class="label">שניות</span>
+            </div>
+            
+            <div id="status-message" class="info-item">תור השחקן: X</div>
+        </div>
+
+        <div class="board" id="gameBoard">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+
+        <button id="restartButton">משחק חדש</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
