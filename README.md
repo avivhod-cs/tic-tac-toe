@@ -8,6 +8,8 @@ This project implements a classic Tic-Tac-Toe game with an added constraint:
 each player has a limited amount of time to make a move. If the timer expires, the current player automatically loses.
 The application is fully client-side and requires no external dependencies or build steps.
 
+file:///C:/Users/UserY/Desktop/CS/y3/webdev/tic-tac-toe/index.html
+
 Features:
 1. Game rules are presented at the top of the page.
 1. 30-second timer per turn with automatic loss on timeout.
